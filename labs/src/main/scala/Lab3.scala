@@ -78,12 +78,12 @@ object Lab3 extends App {
   //                  ex: Petyr  Baelish, aged: 38
 
   def getInfo(human: Human): String = human match {
-    case Student(name) => return name
-    case Teacher(id) => return id
+    case Student(name) => name
+    case Teacher(id) => id
     case Character(fullName, age) => {
       val name = fullName.firstName
       val surname = fullName.secondName
-      return s"$name $surname, age: $age"
+      s"${fullName.firstName} $surname, age: $age"
     }
   }
 

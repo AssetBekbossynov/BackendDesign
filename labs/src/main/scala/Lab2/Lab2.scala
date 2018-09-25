@@ -27,7 +27,7 @@ trait Walks {
 // Can Dog only extend from `Walks`?
 // Try to fix Dog, so it extends proper traits
 // Implement Dog class so it passes tests
-case class Dog(name: String) extends Walks with Animal{
+case class Dog(name: String) extends Walks with Animal {
   override def makeSound(): String = "Whooof"
 }
 

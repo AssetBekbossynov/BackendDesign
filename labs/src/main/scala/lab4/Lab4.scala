@@ -79,16 +79,11 @@ object Lab4 extends App {
     */
   def extractOperation(operand: String): Option[Operation] =
     try {
-      if (operand.equals("ADD")){
-        Some(Operation.ADD)
-      }else if (operand.equals("SUBTRACT")){
-        Some(Operation.SUBTRACT)
-      }else if (operand.equals("MULTIPLY")){
-        Some(Operation.MULTIPLY)
-      }else if (operand.equals("DIVIDE")){
-        Some(Operation.DIVIDE)
-      }else {
-        None
+      operand match {
+        case "ADD" => Some(Operation.ADD)
+        case "SUBTRACT" => Some(Operation.SUBTRACT)
+        case "MULTIPLY" => Some(Operation.MULTIPLY)
+        case "DIVIDE" => Some(Operation.DIVIDE)
       }
     } catch {
       case _: Throwable => None
