@@ -1,0 +1,23 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mLab4Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mhasMiddleName[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return true if Student has middle name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false if Student does no have a middle name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mhasDrivingLicense[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return true if Student has a driving license[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false if Student does not have a driving license[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32maddOptions[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add to options with values[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return None if one option has None[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return None if both options are empty[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mextractDouble[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return some value if valid string of double is used[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return None if invalid string of double is used[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mextractOperand[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return some operand if valid string representation of operand is used[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return None if invalid string representation of operand is used[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msimpleCalculate[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return result of calculation if all data is valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return None if invalid operand is passed[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return None if operand1 is invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return None if operand2 is invalid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return None if exception is raised during calculation[0m[0m

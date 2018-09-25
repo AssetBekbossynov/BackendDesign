@@ -1,0 +1,9 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/asset/Backend/kbtu-teaching/backend-system-design/labs/src/main/scala/lab4/Lab4.scala:51:26: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: None[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case Some(value1) => option2 match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/asset/Backend/kbtu-teaching/backend-system-design/labs/src/main/scala/lab4/Lab4.scala:50:77: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: None[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def addOptions(option1: Option[Int], option2: Option[Int]): Option[Int] = option1 match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
